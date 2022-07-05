@@ -1,0 +1,57 @@
+/*COMENTÁRIO CSS*/
+body{
+    
+}
+
+#imgbanner{
+    width: 100%;
+}
+
+.principal{
+    background-color: #CCCCCC; /* o codigo hexadecimal é o RGB dividido em 6 partes 2R/2G/2B */
+    padding: 30px; /*margem/ borda interna*/
+}
+
+.titulo-principal{
+    /* display: inline-block; */
+    padding-left: 20px;
+    /* padding-right: 20px;
+    background-color: red; */
+}
+
+.titulos{
+    text-align: center
+}
+
+p{
+    text-align: center; 
+ }
+
+#missao{ /*--identidicadores servem para itens unicos*/
+    font-size: 20px
+} 
+
+em strong{
+    color: #FF0000;
+}
+
+.beneficios{
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+
+.itens{ /*classes servem para itens repetidos*/
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+#imgbeneficios{
+    width: 50%;   
+}

@@ -1,0 +1,50 @@
+<!--COMETÁRIO HTML-->
+<!DOCTYPE html> <!--é necessario colocar essa tag para identificar para o navegador a versao do html que estou usando-->
+
+    <!--tag h1 para header 1 (titulo 1)-->
+    <!--tag p para paragrafo-->
+    <!--tag em para colocar em italico-->
+    <!--tg strong para colocar em negrito-->
+
+<html lang="pt-br"> <!--html tag identifica o html e a lingua para o navegaor-->
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Barbearia Alura</title>
+        <link rel="stylesheet" href="style.css">
+
+        <!--
+        <style>
+            p{
+                text-align: center; segunda forma de fazer o css no html
+            }
+        </style>
+        -->
+    </head>
+
+    <body>  
+        <header>
+            <h1 class="titulo-principal">Barbearia Alura</h1>
+        </header>
+        <img id="imgbanner" src="img/banner.jpg"> <!--identidicadores servem para itens unicos-->
+        <div class="principal"> <!--div é para fazer a divisão do html em "blocos"-->
+            <h2 class="titulos">Sobre a Barbearia Alura</h2> 
+            <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+            <!--uma forma de fazer o css no html "inline"-->
+            <p id="missao"><em>Missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p> 
+            <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+            </div>    
+        <div class="beneficios">
+            <!--Listas-->
+            <h3 class="titulos">Benefícios</h3>
+            <ul> <!--UL/OL para lista não ordenada/ ordenada-->
+                <li class="itens">Atendimento ao cliente</li> <!--classes servem para itens repetidos-->
+                <li class="itens">Espaço diferenciado</li>
+                <li class="itens">Localização</li>
+                <li class="itens">Profissionais qualificados</li>
+            </ul>
+            <img id="imgbeneficios" src="img/beneficios.jpg">-
+        </div>
+    </body>
+
+</html>

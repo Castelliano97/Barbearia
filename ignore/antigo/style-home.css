@@ -1,0 +1,135 @@
+/* cabecalio */
+header{
+    background: #BBBBBB;
+    padding: 20px;
+}
+
+#imglogo:hover{ /*adicionei sozinho para aumentar o tamanho da img quando passo o mouse em cima*/
+    block-size: 270px;
+}
+
+.caixa{
+    /* background: red; */
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{ /*e a nav (navegacao/header) geral*/
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{ /*nav li (lista) sao os itens da lista*/
+    display: inline;
+    margin: 0 0 0 15px; /*margens são topo, direita, baixo e esquerda*/
+}
+
+nav a{ /*nav a (ancora) sao os links dentro da lista (nav li) */
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+    font-size: 21px; /*adicionei sozinho*/
+}
+
+
+/* sobre a barbearia */
+
+.caixa2{
+    margin: 10px auto;
+    width: 940px;
+    /* background: red; */
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#imgbanner{
+    width: 100%;
+}
+
+.caixa2 h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#sobre-alura-p1{
+    margin-bottom: 10px;
+}
+
+#sobre-alura-p1 strong{
+    font-weight: bold;
+}
+
+#sobre-alura-p2{
+    margin-bottom: 10px;
+}
+
+#sobre-alura-p2 em{
+    font-style: italic;
+    font-weight: bold;
+}
+
+#sobre-alura-p3{
+    margin-bottom: 10px;
+}
+
+.caixa3{
+    margin: 10px auto;
+    width: 940px;
+    /* background: red; */
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.caixa3 h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#imgbeneficios{
+    width: 50%;
+    vertical-align: middle;
+}
+
+.caixa3 ul{
+    display: inline-block;
+    width: 20%;
+    margin-right: 10%;
+    vertical-align: middle;
+}
+
+.itens{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 15%;
+}
+
+
+/* rodape */
+
+footer{
+    text-align: center;
+    background: url("img/bg.jpg");
+    padding: 40px;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    /* font-style: italic; */
+
+}
